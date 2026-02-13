@@ -1,19 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My own website</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nivash | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="#">Home <span></span></a>
-        <a href="#">About <span></span></a>
-        <a href="#">Skills <span></span></a>  
-        <a href="#">Portfolio <span></span></a>
-        <a href="#">Contact <span></span></a>
-    </nav>
-    
+
+<nav>
+    <div class="logo">NIVASH</div>
+
+    <div class="nav-links">
+        <a href="#home" class="active">Home <span></span></a>
+        <a href="#about">About <span></span></a>
+        <a href="#skills">Skills <span></span></a>  
+        <a href="#portfolio">Portfolio <span></span></a>
+        <a href="#contact">Contact <span></span></a>
+    </div>
+</nav>
+
+<section id="home" class="section hero">
+    <h1>Hi, I'm <span>Nivash</span></h1>
+    <p>Full Stack Developer | Java Backend | Creative Designer</p>
+    <button>Hire Me</button>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a passionate developer focused on building modern web applications using Java and modern frontend technologies.</p>
+</section>
+
+<section id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="skills-box">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Java</div>
+        <div>Git & GitHub</div>
+    </div>
+</section>
+
+<section id="portfolio" class="section">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="card">Weather App</div>
+        <div class="card">AI Resume Analyzer</div>
+        <div class="card">Portfolio Website</div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: nivash@example.com</p>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
